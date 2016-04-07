@@ -6,9 +6,12 @@ Farbod is a  Persian/Arabic typeface, suitable for text.
 
 #نگارش فعلی
 
+
 ##Farbod 3.0.0 :
  در این نسخه فربد را از نو شروع به طراحی کردم. هدف این فونت فقط چاپ و نشر رومیزی هست. فونت‌های این مورد نیاز به خصوصیات خاص در اشکال حروف دارند. برای مثال دندانه‌ها بسیار ظریف و کوتاه گرفته می‌شود و نزدیک به دستگاه‌های نستعلیق و نسخ عربی/فارسی باید باشد.
 
+ demo : [here](http://font-store.github.io/font-farboad/online/)
+ 
 ##Farbod 2.0.0 :
  این نسخه حاضر شده بود، اما در مرحله تکمیل فونت نیکا تصمیم گرفتم هر دو فونت رو باهم ادغام کنم تا فونت نیکا این قابلیت رو پیدا کنه تا سایر سبک‌های دیگه مثل منولاین و منو اسپیس رو  بتواند ساپورت کند.
 
@@ -55,7 +58,7 @@ Farbod is a  Persian/Arabic typeface, suitable for text.
 
 
 
-demo : [here](http://font-store.github.io/font-nika/online/)
+
 
 ## Preview
 ![Intro](docs/cell1.png)
