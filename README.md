@@ -60,8 +60,11 @@ Farbod is a  Persian/Arabic typeface, suitable for text.
 
 ## بزرگوارانی که فربد رو مورد حمایت خود  قرار دادند:
 
+
 total(rials) : ۲۵۰۰۰ تومان
+
 total(dollar) : 0$
+
 
 -   [محمد کیهانی](https://twitter.com/1keyhani)
 
