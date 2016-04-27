@@ -6,7 +6,7 @@ Farbod is a  Persian/Arabic typeface, suitable for text.
 
 #نگارش فعلی
  version : v3.1.0   
- demo : [here](http://font-store.github.io/font-farboad/online/)
+ demo : [here](http://font-store.github.io/font-farbod/online/)
 
 
 
