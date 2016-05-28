@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'NikaWeb';
-    src:url('Nika-Regular.woff') format('woff2'),
-    url('Nika-Regular.woff') format('woff'),
-    url('Nika-Regular.otf') format('opentype') ,
-    url('Nika-Regular.ttf') format('truetype');
+    font-family: 'WebFarbod';
+    src:url('Farbod-Regular.woff') format('woff2'),
+    url('Farbod-Regular.woff') format('woff'),
+    url('Farbod-Regular.otf') format('opentype') ,
+    url('Farbod-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
