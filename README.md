@@ -1,4 +1,4 @@
-# About
+# About - درباره
 
 - Name : Farbod 
 - Descrption :Farbod is a Persian/Arabic font.
@@ -6,14 +6,46 @@
 - Development : [Mohammad Saleh Souzanchi](http://github.com/zoghal)
 - Style : Naskh
 - Usage : Print & Publishin, High Resolution Screen or More than 18px font size
-- Download : [here]()
+- Version : 3.2.5
+- Grid Proportions: 7 Dot Point
+- Download : [here](https://github.com/font-store/font-farbod/releases/latest)
+
+<ul  dir="rtl">
+
+<li>نام : فربد</li>
+<li>توضیحات : بهداد یک فونت فارسی/عربی  هست . کاربرد اصلی این فونت برای مصارف چاپ  و نشر رومیزی می‌باشد.</li>
+<li>طراح تایپ‌فیس : <a href="http://github.com/zoghal">محمد صالح سوزنچی</a></li>
+<li>توسعه‌دهنده : <a href="http://github.com/zoghal">محمد صالح سوزنچی</a></li>
+<li>سبک : تحصیلی، براساس خط نسخ </li>
+<li>گرید تناسبات: ۷ نقطه  </li>
+<li>کاربرد : چاپ و نشر رومیزی، ، صفحه نمایش با کیفیت بالا یا سایز بیشتر از ۱۸ پیکسل</li>
+<li>ویرایش :  ۳.۲.۵</li>
+<li>دانلود : <a href="https://github.com/font-store/font-farbod/releases/latest">کلیک کنید</a></li>
+
+</ul>
 
 
 
-#  Demo & Tests
 
-- Tecnical Test : [here](http://font-store.github.io/font-farbod/online/)
-- Survey 1 : -
+
+#  Demo & Tests - دمو و تست‌ها
+
+- Tecnical Tester : [here](http://font-store.github.io/font-farbod/online/)
+- Survey 1 : [here](http://font-store.github.io/font-farbod/tests/)
+- Typography example : [here](http://font-store.github.io/font-farbod/typography-persian.htm)
+- Paper demo : [here](http://font-store.github.io/font-farbod/paper-persian.htm)
+
+
+
+
+<ul  dir="rtl">
+<li>حرفه‌ای تست کنید : <a href="http://font-store.github.io/font-farbod/online/">کلیک کنید</a></li>
+<li>نظرخواهی : <a href="http://font-store.github.io/font-farbod/tests/">کلیک کنید</a></li>
+<li>نمونه تایپوگرافی : <a href="http://font-store.github.io/font-farbod/typography-persian.htm">کلیک کنید</a></li>
+<li>مقاله نمایشی : <a href="http://font-store.github.io/font-farbod/paper-persian.htm">کلیک کنید</a></li>
+</ul>
+
+
 
 
 

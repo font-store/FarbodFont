@@ -4,4 +4,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1300px" height="1300px" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
 viewBox="0 0 1300 1056"
  xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#999933}
+   ]]>
+  </style>
+ </defs>
+ <g id="_100:master">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M877 3c2,-32 66,-32 65,0l-23 102c-3,16 -19,19 -23,1l-19 -103z"/>
+ </g>
 </svg>

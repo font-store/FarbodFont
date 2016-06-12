@@ -7,7 +7,10 @@ viewBox="0 0 1300 1056"
  <defs>
   <style type="text/css">
    <![CDATA[
+    .fil5 {fill:#663333;fill-opacity:0.501961}
     .fil2 {fill:#660066;fill-opacity:0.549020}
+    .fil3 {fill:#663333;fill-opacity:0.549020}
+    .fil4 {fill:#FF6600;fill-opacity:0.549020}
     .fil1 {fill:#999933}
     .fil0 {fill:#FF9966}
    ]]>
@@ -22,8 +25,22 @@ viewBox="0 0 1300 1056"
   <path class="fil1" d="M975 654l-46 61c-95,109 -434,129 -322,-169 5,-14 -26,-25 -32,-11 -181,440 400,402 400,119z"/>
   <path class="fil0" d="M929 715l46 -61c1,-18 9,-85 -57,-207l-39 80c55,103 57,176 50,188z"/>
  </g>
- <g id="Layer_x0020_2">
+ <g id="Layer_x0020_2" visibility="hidden">
   <metadata id="CorelCorpID_2Corel-Layer"/>
-  <path class="fil2" d="M934 685c-6,-52 -38,-120 -60,-159l38 -80c29,54 66,131 64,197l0 0c0,8 -1,30 -2,37 -13,120 -133,194 -239,194 -126,-1 -228,-95 -127,-318l25 13c-60,167 17,224 108,223 85,0 184,-53 193,-107z"/>
+  <path class="fil2" d="M975 658l-41 41c0,-53 -36,-130 -60,-173l38 -80c31,58 72,143 63,212z"/>
+  <path class="fil1" d="M976 643l-42 42c-9,54 -108,107 -193,107 -91,1 -168,-56 -108,-223l-25 -13c-101,223 1,317 127,318 106,0 226,-74 239,-194 1,-7 2,-29 2,-37z"/>
+ </g>
+ <g id="Layer_x0020_3" visibility="hidden">
+  <metadata id="CorelCorpID_3Corel-Layer"/>
+  <path class="fil3" d="M926 662l42 -59c23,339 -564,323 -347,-63l24 13c-152,288 262,236 281,109z"/>
+  <path class="fil4" d="M929 715c0,-28 0,-102 -47,-181l38 -80c53,96 72,205 9,261z"/>
+ </g>
+ <g id="Layer_x0020_4" visibility="hidden">
+  <metadata id="CorelCorpID_4Corel-Layer"/>
+  <path class="fil3" d="M611 542l23 10c-70,169 19,228 119,228 79,0 164,-36 184,-85 5,-13 3,-63 -49,-152l38 -80c35,59 53,118 52,171 -3,150 -121,227 -229,227 -132,0 -236,-104 -138,-319z"/>
+ </g>
+ <g id="Layer_x0020_5">
+  <metadata id="CorelCorpID_5Corel-Layer"/>
+  <path class="fil5" d="M975 607c1,303 -505,306 -357,-79l26 8c-91,259 231,260 289,99 -3,-56 -31,-102 -51,-139l36 -74c33,63 59,117 57,185z"/>
  </g>
 </svg>

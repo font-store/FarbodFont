@@ -7,9 +7,14 @@ viewBox="0 0 1300 1056"
  <defs>
   <style type="text/css">
    <![CDATA[
+    .fil10 {fill:#663333;fill-opacity:0.501961}
+    .fil7 {fill:#000066;fill-opacity:0.549020}
     .fil0 {fill:#660066;fill-opacity:0.549020}
+    .fil9 {fill:#663333;fill-opacity:0.549020}
     .fil2 {fill:#CC6633;fill-opacity:0.549020}
+    .fil8 {fill:red;fill-opacity:0.549020}
     .fil5 {fill:fuchsia;fill-opacity:0.549020}
+    .fil6 {fill:#FF6600;fill-opacity:0.549020}
     .fil4 {fill:#FF6666;fill-opacity:0.549020}
     .fil1 {fill:#666633}
     .fil3 {fill:#FF6633}
@@ -50,8 +55,27 @@ viewBox="0 0 1300 1056"
   <metadata id="CorelCorpID_6Corel-Layer"/>
   <path class="fil0" d="M932 639c1,-33 -19,-89 -50,-127l38 -80c46,70 62,130 52,182 -11,114 -94,230 -181,215l-110 -20c-2,-16 5,-20 17,-20 79,-3 207,-65 234,-150z"/>
  </g>
- <g id="Layer_x0020_7">
+ <g id="Layer_x0020_7" visibility="hidden">
   <metadata id="CorelCorpID_7Corel-Layer"/>
   <path class="fil5" d="M925 626c1,-10 -15,-42 -64,-118l39 -80c41,68 61,109 69,138 31,120 -51,287 -166,287l-88 0c-5,-13 1,-27 16,-29 86,-12 167,-93 194,-198z"/>
+ </g>
+ <g id="Layer_x0020_8" visibility="hidden">
+  <metadata id="CorelCorpID_8Corel-Layer"/>
+  <path class="fil6" d="M952 723l-21 -3 1 -55c-4,-36 -23,-84 -53,-135l39 -80c53,97 79,159 34,273z"/>
+  <path class="fil7" d="M932 665l42 -66c8,93 1,151 -80,230 -65,63 -98,65 -216,-8l10 -23c101,39 125,18 161,-15 68,-62 82,-82 83,-118z"/>
+ </g>
+ <g id="Layer_x0020_9" visibility="hidden">
+  <metadata id="CorelCorpID_9Corel-Layer"/>
+  <path class="fil8" d="M956 712l-17 7c3,-85 -12,-116 -60,-197l39 -80c57,107 62,146 57,208 -1,22 -8,42 -19,62z"/>
+  <path class="fil7" d="M937 650l38 0c-2,83 -72,197 -156,209 -34,4 -110,-9 -137,-14l3 -32c39,1 104,-4 138,-25 49,-29 113,-97 114,-138z"/>
+ </g>
+ <g id="Layer_x0020_10" visibility="hidden">
+  <metadata id="CorelCorpID_10Corel-Layer"/>
+  <path class="fil7" d="M929 634l46 -50c0,114 -33,212 -98,245 -45,23 -107,14 -151,16 -11,0 -8,-28 9,-29 45,-3 175,-68 194,-182z"/>
+  <path class="fil9" d="M975 593l-45 62c0,-46 -9,-64 -62,-153l39 -79c34,59 68,112 68,170z"/>
+ </g>
+ <g id="Layer_x0020_11">
+  <metadata id="CorelCorpID_11Corel-Layer"/>
+  <path class="fil10" d="M967 701c-23,84 -85,140 -155,158 -34,9 -117,-38 -130,-50l10 -26c79,32 104,13 120,6 51,-21 102,-68 121,-122 -3,-55 -31,-101 -51,-139l36 -73c46,86 71,147 49,246z"/>
  </g>
 </svg>
