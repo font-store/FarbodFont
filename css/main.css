@@ -1,11 +1,11 @@
 body{
-  font-family: NikaWeb,cursive;
+  font-family: TestFont,cursive;
   direction: rtl;
   display: flex;
   flex-direction: column;
   margin: 0px;
   font-size: 1em;
-  line-height: 1.9;
+  line-height: 1.6;
 }
 p{
   margin: 10px 0px;
@@ -25,6 +25,10 @@ h1,h2,h3,h4{
   align-items: stretch;
   justify-content: space-between;
 
+}
+
+p{
+    font-size: 1.7em;  
 }
 
 
