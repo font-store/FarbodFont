@@ -51,7 +51,7 @@
 
 # Donation
 
-[![Intro](docs/4.png)](https://www.payping.ir/d/O3ub)
+[![Intro](http://font-store.github.io/font-farbod/docs/4.png)](https://www.payping.ir/d/O3ub)
 
 
 ## بزرگوارانی که فربد رو مورد حمایت خود  قرار دادند:
@@ -68,9 +68,9 @@ total(dollar) : 0$
 
 
 # Preview
-![Intro](docs/1.png)
-![Intro](docs/2.png)
-![Intro](docs/3.png)
+![Intro](http://font-store.github.io/font-farbod/docs/1.png)
+![Intro](http://font-store.github.io/font-farbod/docs/2.png)
+![Intro](http://font-store.github.io/font-farbod/docs/3.png)
 
 
 
