@@ -19,7 +19,7 @@ function changeSize() {
 	var Shadow = $('.shadow');
 	var Blur = $('.blurRange')
 	var me = $('.me');
-
+    var fullScreen = $('#fullscreen')
 
 /*
 Hotkey Evenets
@@ -40,6 +40,11 @@ Hotkey Evenets
 		refresh();
 	});
 
+    fullScreen.click(function(){
+        let res = $(this).prop('checked');
+		ss.setItem('TestPanel.fullscreen',res);
+		refresh()
+    });
 
 	baseline.click(function(){
 		var res = $(this).prop('checked');
@@ -110,7 +115,9 @@ Hotkey Evenets
 		 	var _fea = ss.getItem('TestPanel.features') || "kern,liga";
 		 	var _base = ss.getItem('TestPanel.baseline') || 'true';
 		 	var _scroll = ss.getItem('TestPanel.scroll')  || 0;
-
+            var _full = ss.getItem('TestPanel.fullscreen') || 'true';
+                       
+            
 		 	var textStyles = {}
 		 	//langs
 		 	 langs.filter('[value='+_lang+']').prop('checked', true);
@@ -128,13 +135,21 @@ Hotkey Evenets
 
 
 		 	 if(_base =='true') {
-		 	 		Box.addClass('grid-line') ;
+		 	 		Box.children('p').addClass('grid-line') ;
 		 	 	//baseline.prop('checked', true);
 
 		 	 } else{
 
 		 	 	Box.removeClass('grid-line') ;
 		 	 }
+             
+             // if(_full =='true') {
+		 	 		// launchFullscreen(testPanel[0]);
+		 	 //	baseline.prop('checked', true);
+                 // console.log(_full);
+
+             // }
+           
 
 		 	 _fea = _fea.split(',');
 		 	 var _feaStyle=[]
@@ -201,12 +216,31 @@ $(window).on('beforeunload', function(){
 	
 });
 
+$(document).ready(function() {
+     checkFullScreen() 
+    
+  
+});
+
 $(window).on('load', function(){
 	  changeSize();
-	    	 var scroll = ss.getItem('TestPanel.scroll');
-
-	    	  $(".boxContainer")[0].scrollTop = scroll || 0;
-    	 
-    			
-
+	    var scroll = ss.getItem('TestPanel.scroll');
+   $(".boxContainer")[0].scrollTop = scroll || 0;
 });
+
+
+function checkFullScreen(){
+    if((window.outerWidth-screen.width) ==0 && (window.outerHeight-screen.height) ==0 )
+    {
+        $('body').addClass('ISFullScreen');
+        return;
+    }else{
+    $('body').removeClass('ISFullScreen');
+    }
+}
+
+$(window).on('resize',function(event){
+    checkFullScreen();
+    });
+
+

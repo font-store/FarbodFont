@@ -5,6 +5,14 @@
  * Designed and Developed by Saleh Souzanchi (saleh.souzanchi@gmail.com)
  */
 
+  @font-face {
+      font-family: 'WebBehdad';
+      src: url('Behdad-Regular.woff2') format('woff2'),
+      url('Behdad-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
@@ -76,6 +84,19 @@ body{
     overflow: hidden;
 }
 
+body *{
+     -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+
+#TextContainer,#TextContainer p.show {
+     -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+    
+}   
 /************************************
 
 *************************************/
@@ -100,6 +121,9 @@ header{
     position: relative;
     box-shadow: 0px 2px 4px 1px #999;
 }
+.ISFullScreen header{
+   display:none;
+}  
 
 header .logobox{
     background: #ff007e;
@@ -184,13 +208,13 @@ position: relative;
 
     z-index: 10;
     display: none;
-        bottom: 20;
+        bottom: 20px;
         height: 0;
     font-family: Lalezar;
     font-size: 24px;
     line-height: 1;
     height: 0px;
-    font-weight: 400px;
+    font-weight: 400;
     text-shadow: 1px 1px 3px #666;
     color: #fff;
     padding: 5px 10px;
@@ -231,6 +255,9 @@ position: relative;
     
 }
 
+.ISFullScreen .UnitTest{
+        margin:0;
+}
 .UnitTest.hide{
   display: none;
 
@@ -305,7 +332,7 @@ position: relative;
 
 
 label{
-  font-family: IranianSans3;
+  font-family: tahoma;
   font-size: 14px;
     margin: 0 10px;
 }
@@ -331,10 +358,12 @@ label{
   
 }
 #TextContainer {
-  flex:1;
-  display: flex;
-  position: relative;
-
+flex: 1 1 0;
+display: flex;
+position: relative;
+flex-wrap: wrap;
+min-width: 100%;
+flex-direction: row;
   
 }
 
@@ -344,25 +373,32 @@ label{
 
   margin: 0px;
   padding: 0px 20px;
-    line-height: 1.6em;
+    line-height: 1.7em;
     text-rendering:optimizelegibility;
   position: relative;
   word-wrap: break-word;
 word-break: normal;
 }
 
+
 #TextContainer .show{
-  flex:1;
+  flex:1 1 auto ;
+ width:calc( 100% - 20px);  
   display: table;
-height: 100%;
-  display: block;
 }
 
-#TextContainer.grid-line .show{
+
+#TextContainer > p span{
+
+  display:block;  
+}
+
+ p.grid-line {
   background-color: transparent;
-  background-image: linear-gradient(rgba(0, 0, 0, .09) 1px, transparent 1px);
-  background-size: 100% 1.6em;
-  background-position: 0 1.05em;
+  background-image: linear-gradient(rgba(6, 35, 116, 0.16) 0px, transparent 1px);
+  background-size: 100% 1.7em;
+  background-position: 0 1.095em;
+  background-attachment: scroll;
 }
 
 .nowrap{
@@ -456,7 +492,7 @@ clip: rect(0,0,0,0);
   align-items:center;
  }
 input.textSizeNumber{
-  width: 40px;
+  width: 50px;
   font-size: 12px;
   font-family: tahoma;
   line-height: 0.5;  
@@ -477,13 +513,14 @@ input.textSize{
   background-image: -moz-linear-gradient(top,#fff, #d9d9d9);
   background-image: -webkit-linear-gradient(top, #fff, #d9d9d9);
   text-align: center;
-  line-height: 28px;
+  line-height: 20px;
   cursor: pointer;
   color: #444;
   white-space: nowrap;
-  text-shadow: 0 1px 0 #fff;
-  font-family: IranianSans3,arial;
-  font-size: 14px;
+  text-shadow: 0 1px 1px #fff;
+  font-family: WebBehdad;
+  font-size: 11px;
+
 
 }
  input.custom-checkbox:checked ~ label{
@@ -516,7 +553,7 @@ input.textSize{
 
 
 footer{
-    font-family:IranianSans3;
+    font-family:WebBehdad;
     text-align:center;
     padding:5px;
 }
