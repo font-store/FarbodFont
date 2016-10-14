@@ -1,7 +1,8 @@
 @font-face {
-    font-family: 'WebFarbod';
-    src:url('Farbod-Regular.woff') format('woff2'),
-    url('Farbod-Regular.woff') format('woff'),
+    font-family: 'FarbodWeb';
+
+    src:  url('Farbod-Regular.woff2') format('woff2'),
+      url('Farbod-Regular.woff') format('woff'),
     url('Farbod-Regular.otf') format('opentype') ,
     url('Farbod-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -10,10 +11,37 @@
 
 @font-face {
     font-family: 'TestFont';
-    src:url('Farbod-Regular.woff') format('woff2'),
+    src:url('Farbod-Regular.woff2') format('woff2'),
     url('Farbod-Regular.woff') format('woff'),
     url('Farbod-Regular.otf') format('opentype') ,
     url('Farbod-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'GanjNamehSans';
+    src:  url('GanjNamehSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'FSIcon';
+    src:url('fontstore-icon.woff2') format('woff2'),
+    url('fontstore-icon.woff') format('woff'),
+    url('fontstore-icon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'LalezarWeb';
+    src:  url('Lalezar-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
