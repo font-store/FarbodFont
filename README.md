@@ -93,3 +93,26 @@ total(dollar) : 0$
 
 ## Farbod 1.0.0 :
  نسخه آزمایشگاهی  و تست برای تولید پیاده سازی فونت ساز
+
+## Install
+
+#### Linux
+gnu/inux users could use [kateb](https://github.com/kiamazi/kateb) font manager, to install Farbod font.
+
+ubuntu users must install this dependensies too:
+```
+sudo apt install openssl libssl-dev
+````
+
+##### install kateb
+```
+sudo cpan farbod
+```
+and
+```
+kateb install farbod
+```
+or
+```
+kateb update shabnam
+```
