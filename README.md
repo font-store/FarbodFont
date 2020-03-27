@@ -107,12 +107,8 @@ sudo apt install openssl libssl-dev
 ##### install kateb
 ```
 sudo cpan farbod
-```
-and
-```
+
 kateb install farbod
-```
 or
-```
 kateb update shabnam
 ```
